@@ -18,9 +18,9 @@
     <property name="geometry">
      <rect>
       <x>150</x>
-      <y>30</y>
+      <y>70</y>
       <width>271</width>
-      <height>131</height>
+      <height>91</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -92,6 +92,23 @@ border: 3px solid</string>
     </property>
     <property name="text">
      <string>Caracteres: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>80</y>
+      <width>331</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Segoe UI Historic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>proyecto jacky y axel</string>
     </property>
    </widget>
   </widget>
