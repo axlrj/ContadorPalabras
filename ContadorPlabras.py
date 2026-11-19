@@ -8,6 +8,7 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         #Cargar nuestra vista
         uic.loadUi("contadorPalabras.ui",self)
         self.btnContar.clicked.connect(self.ContarPalabras)
+        #configurar el cambio de texto
     def ContarPalabras(self):
         #Recuperar texto
         texto= self.edtCaracteres.text()
