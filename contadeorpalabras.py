@@ -1,5 +1,5 @@
 import sys
-from PyQt6 import QtWidgets,uic
+from PyQt5 import QtWidgets,uic
 
 class ContadorPalabras(QtWidgets.QMainWindow):
     def __init__(self):
@@ -24,6 +24,12 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         for palabra in textoSeparado:
             totalCaracteres+= len (palabra)
         self.tvCaracteres.setText(f"Caracteres:{totalCaracteres}")
+
+        if totalCaracteres > 50:
+            self.tvPalabras.setStyleSheet("color: red;")
+
+
+
         print("Funciona boton")
 
 app=QtWidgets.QApplication(sys.argv)
