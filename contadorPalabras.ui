@@ -13,7 +13,88 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>30</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Segoe UI Historic&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Contador Palabras</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnContar">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Palatino Linotype&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Contar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edtCaracteres">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>170</y>
+      <width>441</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:15px;
+border: 3px solid</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tvPalabras">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Palatino Linotype&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Palabras: 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tvCaracteres">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>380</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 18pt &quot;Palatino Linotype&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Caracteres: 0</string>
+    </property>
+   </widget>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
